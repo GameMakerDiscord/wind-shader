@@ -15,7 +15,7 @@ If you run this you will see this (before and after):
 
 This is closer to what we want, but we need it to be animated. This works by shifting the X coordinates in a cosine wave shape. This makes a nice ripple. You can adjust the frequency by changing the first 30.0 and adjust the amplitude by changing the second 30.0. We'll come back to this at the end of the tutorial
 
-<h3 align="center">Aimating</h3>
+<h3 align="center">Animating</h3>
 
 We need to add a uniform float and we'll call it "Time" and we'll add it in the cosine like this:
 
