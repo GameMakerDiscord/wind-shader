@@ -16,7 +16,9 @@ This is a pass-through shader. If you run the shader applied to a sprite, it sho
 
 If you run this you will see this (before and after):
 
-This is closer to what we want, but we need it to be animated. This works by shifting the X coordinates in a cosine wave shape. This makes a nice ripple. You can adjust the frequency by changing the first 30.0 and adjust the amplitude by changing the second 30.0. We'll come back to this at the end of the tutorial
+This is closer to what we want, but we need it to be animated. This works by shifting the X coordinates in a cosine wave shape. This makes a nice ripple. You can adjust the frequency by changing the first 30.0 and adjust the amplitude by changing the second 30.0. We'll come back to this at the end of the tutorial.
+
+&nbsp;
 
 <h3 align="center">Animating</h3>
 
@@ -35,6 +37,8 @@ We'll set the time uniform in GameMaker like this in the draw event:
     shader_reset()
 
 This will set "Time" to the number of seconds since the game started. If you run this it will be animated. You may notice a problem where the base of the grass moves just as much as the top.
+
+&nbsp;
 
 <h3 align="center">Fixing And Perfecting</h3>
 
