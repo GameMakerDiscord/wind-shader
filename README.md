@@ -1,6 +1,7 @@
 <h1 align="center">Wind Shader</h1>
 
 <h3 align="center">Written by @XorDev</h3>
+<h3 align="center">http://xorshaders.weebly.com/tutorials/8-wind-shader</h3>
 
 To make our wind, we need a simple ripple effect. We will create a vec2 and call it "Coord". This will be used for the wind distortion. We will set it to "v_vTexcoord". Now you need to change the texture2D coordinates to our Coord vector. It should look like this:
  
